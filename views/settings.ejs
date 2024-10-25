@@ -1,0 +1,153 @@
+<html>
+    <%-include('head.ejs') %>
+    <body>
+       <div class="wrapper">
+          <%-include('navbar.ejs') %>
+          
+         <div class="container"><br/>
+          <a href="/user">Back</a>
+ 
+          <div class="__intput-card">
+             <b>Tax Bracket</b>
+             <div class="__intput-card-contents">
+                <div>
+                   <label>Bracket 1</label>
+                   <div class="input-group mb-0">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="0">
+                   </div>
+                   to <br/>
+                   <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="20833">
+                   </div>
+                   <div class="input-group mb-3">
+                      <input type="number" name="" class="form-control" value="0">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">%</span>
+                      </div>
+                   </div>
+               </div>
+               <div>
+                   <label for="">Bracket 2</label>
+                   <div class="input-group mb-0">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="20833">
+                   </div>
+                   to <br/>
+                   <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="33332">
+                   </div>
+                   <div class="input-group mb-3">
+                      <input type="number" name="" class="form-control" value="15">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">%</span>
+                      </div>
+                   </div>
+                </div>
+                <div>
+                   <label for="">Bracket 3</label>
+                   <div class="input-group mb-0">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="33333">
+                   </div>
+                   to <br/>
+                   <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="66666">
+                   </div>
+                   <div class="input-group mb-3">
+                      <input type="number" name="" class="form-control" value="20">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">%</span>
+                      </div>
+                   </div>
+                </div>
+                <div>
+                   <label for="">Bracket 4</label>
+                   <div class="input-group mb-0">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="66667">
+                   </div>
+                   to <br/>
+                   <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="166666">
+                   </div>
+                   <div class="input-group mb-3">
+                      <input type="number" name="" class="form-control" value="25">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">%</span>
+                      </div>
+                   </div>
+                </div>
+                <div>
+                   <label for="">Bracket 5</label>
+                   <div class="input-group mb-">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="166667">
+                   </div>
+                   to <br/>
+                   <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">₱</span>
+                      </div>
+                      <input type="number" name="" class="form-control" value="666666">
+                   </div>
+                   <div class="input-group mb-3">
+                      <input type="number" name="" class="form-control" value="30">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">%</span>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+ 
+         </div>
+      </div>
+    </body>
+</html>
+
+<style>
+   input {
+      border-radius: 5px;
+      border: solid #6d6d6d .5px;
+      padding: 0px 5px;
+   }
+   .__intput-card {
+      display: flex;
+      flex-direction: column;
+      margin-top: 25px;
+      /* border: solid .5px; */
+      border-radius: 15px;
+      padding: 25px;
+      background: #ffff;
+      box-shadow: 0px 5px 15px -12px rgba(0, 0, 0, 0.8);
+   }
+   .__intput-card-contents {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      column-gap: 15px;
+   }
+</style>

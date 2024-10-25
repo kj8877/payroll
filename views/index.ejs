@@ -1,0 +1,13 @@
+<html>
+    <%-include('head.ejs') %>
+    <%-include('navbar.ejs') %>
+    <body>
+        <div class="container">
+            <% for(var i=0; i<tasks.length; i++) {%>
+                <p>Name: <%= tasks[i].name %></p>
+                <p>Description: <%= tasks[i].description %></p>
+                <a class="btn btn-primary" href="/taskDetails">View</a>
+            <% } %>
+        </div>
+    </body>
+</html>
